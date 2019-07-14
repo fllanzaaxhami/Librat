@@ -1,0 +1,60 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+ 
+  <header class="top">
+
+        <div class="header">
+            <h1>APLIKACIONI</h1>
+        </div>
+
+    </header>
+    <section class="section1">
+    </section>
+
+    <div class="sidebar">
+        <h3>   Librat e lexuar </h3>
+		<input type=" text" placeholder="Kerko..." name="search1" id="search1" width=" 300" />
+				
+<ul type="circle"  >
+<li  *ngFor="let liber of librat" > {{ liber }}  </li>
+
+</ul>
+
+
+        <button class="button1"><b>Fshi librat</b></button>
+ </div>
+
+
+
+    <div class="content">
+        <h3>   Librat per tu lexuar</h3>
+
+		<input type=" text" placeholder="Kerko..." name="search2" id="search2" width=" 300" />
+		
+		
+<ul type="circle"  >
+<li  *ngFor="let item of books" > {{ item }}  </li>
+
+</ul>
+        <button class="button2" (click)="delete(vlere.value)" ><b>Fshi librat</b></button>
+</div>
+
+</div>
+
+
+ <div class="footer">
+<label><b> Shkruani Librin qe do lexoni</b> </label><br>
+<input type="text" placeholder="Shkruani Titullin"  #newBook > <br>
+<button class="btn" (click) ="shto(newBook.value)"><b> Shto Liber</b></button>
+
+
+</div>
+
+
+ <div class="footer1">
+<label><b> Shkruani Librin qe lexuat</b> </label><br>
+<input type="text" placeholder="Shkruani Titullin"  #newBook1 > <br>
+<button class="btn1" (click) ="shtoLiber(newBook1.value)"><b> Shto Liber</b></button>
+
+</div>
+

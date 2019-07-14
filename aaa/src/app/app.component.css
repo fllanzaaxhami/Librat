@@ -1,0 +1,181 @@
+
+body {
+  background-color: white;
+  color: black;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+
+h3 {
+  color: white;
+}
+
+
+.footer input{
+position:absolute;
+        top:20%;
+		left:2%;
+		width:40%;
+		height:20%;
+		background-color: white;
+
+}
+
+
+.footer label {
+	position:absolute;
+		top:1%;
+		left:2%;
+}
+
+
+
+.footer button {
+	position:absolute;
+		width:16%;
+		height:24%;
+		top:55%;
+		left:2%;
+		cursor:pointer;
+		border:1px solid green;
+		border-radius:8px;
+		
+		background-color: lightgray;
+}
+
+.content ul {
+position:absolute;
+        top:15%;
+		left:2%;
+		text-align: left;
+
+}
+
+.header {
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  height: 15%;
+  top: 0px;
+  background-color: white;
+}
+
+.sidebar  {
+  float: left;
+  position: absolute;
+  width: 40%;
+  left: 5%;
+  height: 70%;
+  top: 15%;
+  background-color: rgb(150,150,255);
+}
+
+	.sidebar button {
+		position:absolute;
+		width:18%;
+		height:6%;
+		top:90%;
+		left: 5%;
+        cursor:pointer;
+		background-color: rgb(200,0,200);
+	}
+
+
+	.sidebar input {
+		position:absolute;
+		left:3%;
+		width:90%;
+		background-color: rgb(150,150,255);
+		border:1px solid orange;
+	}
+
+
+	.content {
+		position: absolute;
+		top: 15%;
+		left: 50%;
+		height: 70%;
+		width: 40%;
+		background-color: lightgreen;
+	}
+
+		.content button {
+			position: absolute;
+			top: 90%;
+			left: 5%;
+			width:18%;
+			height:6%;
+			cursor:pointer;
+			background-color: rgb(200,0,200);
+		}
+
+		.content input {
+			position:absolute;
+			left:3%;
+			width:90%;
+			border:1px solid orange;
+			background-color: lightgreen;
+		}
+
+.footer {
+  position: absolute;
+  top: 85%;
+  width: 50%;
+  height: 15%;
+  left: 50%;
+  background-color: lightyellow;
+}
+
+
+
+.footer1 {
+  position: absolute;
+  top: 85%;
+  width: 45%;
+  height: 15%;
+  left: 5%;
+  background-color: lightyellow;
+}
+
+.footer1 input{
+position:absolute;
+        top:20%;
+		left:2%;
+		width:40%;
+		height:20%;
+		background-color: white;
+
+}
+
+
+.footer1 label {
+	position:absolute;
+		top:1%;
+		left:2%;
+}
+
+
+
+.footer1 button {
+	position:absolute;
+		width:16%;
+		height:24%;
+		top:55%;
+		left:2%;
+		cursor:pointer;
+		border:1px solid green;
+		border-radius:8px;
+		
+		background-color: lightgray;
+}
+
+.sidebar ul {
+position:absolute;
+        top:15%;
+		left:2%;
+ text-align: left;
+}
+
